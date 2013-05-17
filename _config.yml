@@ -1,0 +1,5 @@
+name: vogle.com
+source: ./_contents
+timezone: Asia/Tokyo
+pygments: true
+permalink: pretty
