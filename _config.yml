@@ -1,7 +1,5 @@
-name: vogle.com
 auto: true
 server: true
 markdown: rdiscount
-timezone: Asia/Tokyo
 pygments: true
 permalink: pretty
