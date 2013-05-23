@@ -1,5 +1,13 @@
 auto: true
 server: true
+
+source:       ./
+destination:  ./_gh_pages
+
 markdown: rdiscount
 pygments: true
+
+exclude: ['CNAME', 'README.md', 'pom.xml', 'src']
+
 permalink: pretty
+
