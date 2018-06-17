@@ -1,0 +1,77 @@
+.about {
+  border-bottom: 1px solid $white;
+  position: relative;
+
+  .about__title {
+    font-weight: 900;
+    margin-bottom: 0;
+  }
+
+  .about__description {
+    font-size: $medium-font-size;
+    margin-top: 0;
+  }
+
+  .about__bio {
+    padding: $larger 0;
+  }
+
+  button {
+    margin-right: $hero;
+    margin-bottom: $hero;
+  }
+}
+
+.contact {
+  padding-top: $larger;
+  position: relative;
+  text-align: right;
+
+  a {
+    border-bottom: 0;
+    color: $white;
+    font-size: $larger-font-size;
+    margin-right: 1.2em;
+    padding-bottom: 0;
+
+    &:hover {
+      color: $brand-secondary;
+    }
+  }
+
+  .contact-btn {
+    font-size: $base-font-size;
+    margin-left: 0;
+    position: absolute;
+    left: 0;
+  }
+}
+
+article {
+  header {
+    > h2 {
+      font-size: $base-font-size;
+      font-weight: 700;
+    }
+  }
+
+  &:after {
+    clear: both;
+    content: "";
+    display: block;
+  }
+}
+
+.teaching {
+  margin-top: 3.157em;
+}
+
+@media screen and (max-width: $mobile) {
+
+  .about {
+    .about__bio {
+      max-width: 100%;
+    }
+  }
+
+}
