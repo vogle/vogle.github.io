@@ -10,19 +10,18 @@ $ sudo npm install -g harp
 ### To view locally:
 
 ```
-$ cd docs
 $ harp server
 ```
 
 ### To view changes:
 
 ```
-$ cd src
+$ cd _src
 $ harp server
 ```
 
 ### To compile changes:
 
 ```
-$ harp compile src docs
+$ harp compile _src ./
 ```
